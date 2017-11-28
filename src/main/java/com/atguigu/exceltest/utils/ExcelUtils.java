@@ -188,7 +188,6 @@ public class ExcelUtils {
 
             //第四步：保存
             try {
-
                 // 文件下载
                 fileName = fileName+".xlsx";
                 response.setContentType("applicatin/ms-excel");
@@ -202,7 +201,6 @@ public class ExcelUtils {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-
             return null;
         }else{
             map.put("errorMsg", "无数据！");
